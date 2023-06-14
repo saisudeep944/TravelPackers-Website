@@ -1,0 +1,35 @@
+body{
+    
+    background: url(./back.jpg);
+ 
+}
+body::after{
+    inset: 0;
+    z-index: -1;
+    content: '';
+    position: absolute;
+    background:black;
+    opacity: .5;
+    margin-bottom: -100px;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: .4rem;
+    color: aliceblue;
+}
+h3{
+    font-family: 'Josefin Sans',sans-serif ;
+    letter-spacing: .1rem;
+    color: aliceblue;
+}
+.began
+{
+    height: 200px;
+    background-color: white;
+}
+.text
+{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 35%;
+}

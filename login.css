@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    background-image: linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.3)),url(./travel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+}
+.box{
+    height: 330px;
+    width: 320px;
+   
+    background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url(./man.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px 20px 20px 20px;
+    margin: auto;
+    margin-top: 130px;
+    margin-left: 580px;
+    border: 2px solid aqua;
+    
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.in
+{
+    margin-left: 80px;
+    padding-top: 20px;
+}
+.red:hover
+{
+    border: 1px solid cornsilk;
+}
+h3{
+    color: cornsilk;
+}
+#button
+{
+    border-radius: 10px 10px 10px 10px;
+    background-color: chartreuse;
+    margin-left: 50px;
+}
+
+.stick
+{
+    height: 150px;
+    background-color: black;
+    display: flex;
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    
+}
+
+div.stick{
+    position: sticky;
+    top:0;  
+}
