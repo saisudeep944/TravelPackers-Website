@@ -1,0 +1,51 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)),url(./na.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.sign
+{
+    width: 500px;
+    height: 670px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./pexels-jordan-benton-1202821.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 470px;
+    margin-top: 3%;
+    border: 2px solid cornsilk;
+    
+}
+.line
+{
+    display: flex;
+}
+.sign2
+{
+    margin-left: 150px;
+    padding-top: -2px;
+}
+h4{
+    color: cornsilk;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h5{
+    color: cornsilk;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.stick
+{
+    height: 150px;
+    background-color: black;
+    display: flex;
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    
+}
+
+div.stick{
+    position: sticky;
+    top:0;  
+}
